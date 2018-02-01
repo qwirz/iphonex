@@ -1,0 +1,584 @@
+@font-face {
+			font-family: "SegoeUISemiBold";
+			src: url("fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+			src: url("fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+			url("fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+			url("fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+@font-face {
+			font-family: "SegoeUIRegular";
+			src: url("fonts/SegoeUIRegular/SegoeUIRegular.eot");
+			src: url("fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+			url("fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+			url("fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+@font-face {
+			font-family: "SegoeUILight";
+			src: url("fonts/SegoeUILight/SegoeUILight.eot");
+			src: url("fonts/SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+			url("fonts/SegoeUILight/SegoeUILight.woff") format("woff"),
+			url("fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+.clear{
+	clear: both;
+}
+html,body{
+	font-family: "Segoe UI";
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+.color{
+	background-color: #090b1e;
+}
+.color2{
+	background-color: #fff;
+}
+#wrapper{
+	width: 100%;
+	max-width: 1920;
+	min-width: 1000px;
+	height: 5000px;
+	background-color: red;
+}
+.content{
+	width: 1112px;
+	margin: 0 auto;
+}
+/*1.Home*/
+#home{
+overflow: hidden;
+	width: 1112px;
+	height: 1001px;
+	background-color: #090b1e;
+	
+}
+#logo{
+	float: left;
+ font-size: 1.5em;
+  background: -webkit-gradient(linear, left top, right top, from(#f92088) , to(#3c59ac) );
+  background: linear-gradient(90deg, #f92088 , #3c59ac );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+ padding-top: 2.5rem;
+padding-left: .4rem	
+}
+.menu ul{
+    float: right;
+	
+	margin: 0;
+	padding-top: 2.5rem;
+}
+.menu li{
+	display: inline-block; 
+	
+	font-size: 0.875em;
+	color: #ffffff;
+	text-transform: uppercase;
+	
+	margin-right: 2.5em;
+	
+}
+.menu li:last-child{
+	margin-right: 0;
+}
+.menu-active{
+	font-family: 'Segoe UI';
+	font-weight: 500;
+	padding-bottom: 9px;
+	
+	border-bottom: 1px solid white;
+}
+.btn{
+	font-family: 'Segoe UI';
+	font-size: 0.875rem;
+	color: #ffffff;
+	font-weight: 500;
+	
+	background-color: rgba( 0, 0, 0, 0 );
+	
+	padding: 14px 27px;
+	
+	border-radius: 5%;
+	border: 1px solid  red;
+	-o-border-image: linear-gradient(90deg, #f92088 , #3c59ac );
+	border-image: -webkit-gradient(linear, left top, right top, from(#f92088) , to(#3c59ac) );
+	border-image: linear-gradient(90deg, #f92088 , #3c59ac );
+	border-image-slice: 1;
+}
+#left-menu{
+	float: left;
+	height: 912px;
+	width: 50%;
+	
+	padding-top: 230px;
+	background-color: #090b1e;
+}
+#left-menu h2{
+  background: -webkit-gradient(linear, left top, right top, from(#f92088) , to(#3c59ac) );
+  background: linear-gradient(90deg, #f92088 , #3c59ac );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+	
+  font-size: 7.5em;
+	
+  margin: 0;
+}
+#left-menu span{
+	font-family: "Segoe UI Light";
+	font-size: 1.25em;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing:.95em;
+	
+	padding-left: .4rem;
+}
+#left-menu p{
+	width: 460px;
+	
+    font-family: "Segoe UI Light";
+	font-size: 1em;
+	color: #fff;
+	margin: 10px 0 50px 0;
+}
+.btn2{
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 1em;
+	color: #fff;
+	
+	padding: 1.25em 2.5em;
+	
+	background: -webkit-gradient(linear, left top, right top, from(#f92088) , to(#3c59ac) );
+	background-color: linear-gradient(90deg, #f92088 , #3c59ac );
+	
+	border: none;
+	border-radius: .25em;
+}
+#right-menu{
+	float: right;
+	
+	width: 50%;
+	height: 912px;
+
+	background-color: #090b1e;
+}
+#right-menu{
+		padding-top: 130px;
+}
+/*features*/
+#circle img{
+	position: absolute;
+	margin-top: 200px;
+	left: -200px;
+	
+		
+}
+#features{ 
+	position: relative;
+	width: 1112px;
+	height: 1017px;
+	background-image: url(img/iphonex1.jpg);
+	background-position: center center;
+	background-repeat :no-repeat;
+	background-color: #fff;
+	background-position-y:225px; 
+}
+#features h2{
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 2.25em;
+	color: #181818;
+    text-align: center;
+	
+	margin: 0px ;
+	padding-top: 100px;
+}
+#left-features{
+	position: absolute;
+	width: 50%;
+	left: 0;
+	top: 250px;
+}
+.dsc-left{
+   
+	width: 504px;
+	height: 174px;
+	position: relative;
+	margin-left: 16px;
+	
+}
+.dsc-left img{
+	position: absolute;
+	top: 4px;
+	right: 0;
+}
+.line2 img{
+	position: absolute;
+	top: 65px;
+	right: 41px;
+}
+.dsc-left span{ 
+	text-align: right;
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 1.25em;
+	display: block;
+	padding-top: 50px;
+	padding-right: 265px;
+}
+.dsc-left p{
+	font-family: "Segoe UI Light",Arial;
+	font-size: 1em;
+	text-align: right;
+	padding-right: 265px;
+}
+#right-features{
+	width: 50%;
+	position: absolute;
+	right: 0;
+	top: 250px;
+}
+.dsc-right{
+	float: right;
+	width: 504px;
+	height: 174px;
+	position: relative;
+	margin: 0px 16px 0 0;
+}
+.dsc-right span{ 
+	text-align: left;
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 1.25em;
+	display: block;
+	padding-top: 50px;
+	padding-left: 265px;
+}
+.dsc-right p{
+	font-family: "Segoe UI Light",Arial;
+	font-size: 1em;
+	text-align: left;
+	padding-left: 265px;
+}
+.dsc-right img{
+	position: absolute;
+	top: 4px;
+	left:0;
+	-webkit-transform: scale(-1,1);
+	transform: scale(-1,1)
+}
+.dsc-right .line3 img{
+	padding-top: 61px;
+}
+/*WIRELESS*/
+#wireless{
+
+	position: relative;
+	height: 700px;
+}
+#wireless h2{
+	color: aliceblue;
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 2.25em;
+	
+	padding-top: 190px;
+	margin: 0;
+	margin-bottom: 50px;
+}
+#wireless p{
+	width: 535px;
+	
+	font-family: "Segoe UI Light",Arial;
+	font-size: 1em;
+	color: #fff;
+	
+	margin: 0;
+	margin-bottom: 30px;
+}
+#wireless img{
+	position: absolute;
+	top: 20px;
+	right: -235px;
+}
+#thex{
+	position: absolute;
+	left: -15%;
+	top: 482px;
+}
+/*SECURITY*/
+#security{
+	overflow: hidden;
+	
+	width: 1500px;
+	position: relative;
+	height: 1610px;
+}
+#security-content{
+	float: right;
+	
+	width: 517px;
+	height: 363px;
+	
+	text-align: left;
+	
+	margin-top: 335px;
+	margin-right: 250px;
+}
+#security-content span{
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 2.25em;
+}
+#security-content p{
+	font-family: "Segoe UI Light",Arial;
+	font-size: 1em;
+	
+	margin: 0;
+	margin-bottom: 30px;
+}
+#faceid{
+	float: left;
+	margin-top: 100px;
+	margin-left: 120px;
+}
+.lilcirc{
+	right: 0;
+	
+	position: absolute;
+}
+#text {
+	display: block;
+	
+	width: 100%;
+	
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 2.25em;
+	text-align: center;
+	
+	margin-top: 100px;
+}
+#slider{
+	width: 1750px;
+	
+	margin: 0px auto; 
+	margin-top: 130px;
+}
+.slider-item{
+	width: 490px;
+	
+	margin:0 10px;
+	
+	color: #444444;
+	
+	display: inline-block;
+	
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 20px 65px rgba( 0, 0, 0, 0.1 );
+	box-shadow: 0px 20px 65px rgba( 0, 0, 0, 0.1 );
+}
+.slider-item .image{
+	float: left;
+	
+	width: 50px;
+	height: 50px;
+	
+	background-color: aliceblue;
+	
+	border-radius: 50%;
+	
+	margin-left: 150px;
+}
+.slider-item .name{
+	width: 150px;
+	float: left;
+	
+	font-family: "Segoe UI Light",Arial;
+	font-size: .875em;
+	
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.slider-item .name span{
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 1em;
+}
+.opis{
+	font-family: "Segoe UI Light",Arial;
+	font-size: 1em;
+	
+	text-align: center;
+}
+.dot{
+	width: 90px;
+	height: 20px;
+	
+	margin: 50px auto;
+}
+.dot:hover{
+	cursor: pointer;
+}
+.dot-item{
+	float: left;
+	
+	width: 20px;
+	height: 20px;
+	
+	margin: 0 5px;
+	background-color: #989898;
+	
+	border-radius: 50%;
+}
+ .active{
+  background: -webkit-gradient(linear, left top, right top, from(#f92088) , to(#3c59ac) );
+  background: linear-gradient(90deg, #f92088 , #3c59ac );
+}
+/*video*/
+.video{
+	width: 100%;
+	height: 740px;
+	background-image: url(img/gagarin.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+/*choose*/
+#choose{
+}
+#choose h1{
+	width: 100%;
+	
+	display: inline-block;
+	
+	text-align: center;
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 2.25em;
+	
+	margin-top: 90px;
+}
+#blackphone{
+	float: left;
+}
+#blackphone img{
+	margin: 0 12.5%;
+}
+.cost {
+	font-family: "Segoe UI Regular";
+	font-size: 1.5em;
+	text-align: center;
+}
+.red{
+	color: #ff002e;
+}
+.blue{
+	color: #0035a3;
+}
+#whitephone{
+	float: right;
+}
+#availeble{
+	
+}
+#availeble span{
+	width: 100%;
+	display: inline-block;
+	
+	text-align: center;
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 2.25em;
+	
+	margin-top: 96px;
+	
+}
+.av-item{
+	margin-top: 70px;
+	margin-bottom: 213px;
+}
+.footer{
+	width: 100%;
+	height: 600px;
+	background-color:  #090b1e;
+}
+.footer h1{
+	text-align: center;
+	font-family: "Segoe UI SemiBold",Arial;
+	font-size: 2.25em;
+	color: #fff;
+	
+	margin: 0;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	
+}
+.footer p{
+	font-family: "Segoe UI Light",Arial;
+	font-size: 1em;
+	text-align: center;
+	color: #fff;
+	
+	margin: 0;
+}
+input[type=text]{
+	width: 350px;
+	
+	font-size:2.25em;
+	color: #fff;
+	
+  padding: 2.25rem 1.5rem;
+	
+	margin: 0 ;
+	margin-left: 250px;
+	border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#f92088) , to(#3c59ac) );
+  background: linear-gradient(90deg, #f92088 , #3c59ac );
+}
+input[type=submit]{
+	font-size:2.25em;
+	color: #fff;
+	
+	padding: 2.25rem 1.5rem;
+	
+	margin: 0;
+	
+	border: none;
+background: -webkit-gradient(linear, left top, right top, from(#f92088), to(#3c59ac));
+background: linear-gradient(to right, #f92088, #3c59ac);
+}
+#social{
+	height: 70px;
+	position: relative;
+	font-family: "Segoe UI Light",Arial;
+	font-size: .875m;
+	color: #fff;
+	margin-top: 98px;
+}
+#social span{
+	
+	float: left;
+}
+#social img{
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+#social img:hover{
+	cursor: pointer;
+}
+#rihgts ul{
+	list-style: none;
+	
+	font-family: "Segoe UI Light",Arial;
+	font-size: .875m;
+	color: #fff;
+	 padding: 0;
+
+}
+#rihgts li{
+	display: inline-block;
+	margin-right: 35px;
+		
+}
